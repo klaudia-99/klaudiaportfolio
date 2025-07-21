@@ -1,0 +1,16 @@
+# Visual Studio śmieci
+.vs/
+*.vsidx
+*.suo
+*.user
+*.VC.db
+*.sqlite
+
+# Node/npm
+node_modules/
+dist/
+build/
+
+# Systemowe
+.DS_Store
+Thumbs.db
