@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Klaudia Pietrzyk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="small"></div>
+<div class="small2"></div>
+  <header class="hero section">
+    <div class="container">
+            <div class="links">
+    <button onclick="location.href='#me'">About me</button>
+    <button onclick="location.href='#qualifi'">Qualifications</button>
+    <button onclick="location.href='#education'">Education</button>
+    <button onclick="location.href='#projects'">Projects</button>
+  </div>
+</div>
+<h3 aria-label="Hi! I'm Klaudia">
+      Hi! I'm&nbsp;<span class="typewriter"></span>
+    </h3>
+    <h3 aria-label="Cześć! Jestem Klaudia">
+      Cześć! Jestem&nbsp;<span class="typewriter1"></span>
+    </h3>
+<div class="photo-box">
+      <img src="twoje-zdjecie.jpg" alt="Twoje zdjęcie" class="profile-photo">
+    </div>
+    </div>
+    <div class="add">
+      <div class="text-on-photo">
+        <h2>Certified and motivated IT enthusiast, focused on continuous development of technical skills and 
+          gaining hands-on experience. I value precision and am eager to grow under the guidance of experienced 
+          colleagues. Looking to join a dynamic work environment where I can contribute, learn, and be part of 
+          a welcoming team that supports junior talent.</h2>
+      </div>
+    </div>
+  </header>
+    <br></br>
+    <br></br>
+    <br></br>
+  <section class="section1">
+    <div class="container1">
+      <h2><b>Contact info | Dane kontaktowe</b><br>
+        <br>Klaudia Pietrzyk.<br>pietrzyk.klaudia990@gmail.com<br>
+        +48 881 034 809<br>Jaworki, 34-460 Polska.</h2>
+    </div>
+    <img src="synek1.jpg" alt="moje baby" class="baby-photo">
+    <img src="synek2.jpg" alt="moje baby" class="cute-photo">
+    <img src="synek3.jpg" alt="moje baby" class="love-photo">
+  </section>
+<section class="section2">
+  <div class="container2">
+    <a href="https://straw.page/" class='a' id="knowBtn">Know me!</a>
+    <br><br><a href="https://www.linkedin.com/in/klaudia-pietrzyk-" class='b' id="meetBtn">Meet me!</a>
+  </div>
+</section>
+
+<script>
+  const knowBtn = document.getElementById('knowBtn');
+  const meetBtn = document.getElementById('meetBtn');
+
+  knowBtn.addEventListener('mouseover', () => {
+    knowBtn.textContent = " ༘ ೀ⋆.˚";
+  });
+  knowBtn.addEventListener('mouseout', () => {
+    knowBtn.textContent = "Know me!";
+  });
+
+  meetBtn.addEventListener('mouseover', () => {
+    meetBtn.textContent = " ༘ ೀ⋆.˚";
+  });
+  meetBtn.addEventListener('mouseout', () => {
+    meetBtn.textContent = "Meet me!";
+  });
+</script>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+  <section class="section3">
+    <div class="container3">
+      <h2>Certyfikowana i zmotywowana pasjonatka informatyki, 
+        skoncentrowana na nieustannym doskonaleniu umiejętności 
+        technicznych oraz zdobywaniu praktycznego doświadczenia. 
+        Cenię precyzję i chętnie rozwinę się pod opieką doświadczonych 
+        współpracowników. Pragnę dołączyć do dynamicznego środowiska pracy, 
+        w którym będę mogła wnosić swój wkład, uczyć się oraz być częścią 
+        wspierającego zespołu, który pomaga młodym talentom rozwijać skrzydła.</h2>
+    </div>
+  </section>
+  <section class="section4">
+    <div class="add1">
+      <div id="me"> </div>
+    </div>
+    <div class="small3"></div>
+    <div class="rlsmall"></div>
+    <div class="rlsmall2"></div>
+<div class="small4"></div>
+</section>
+  <section class="section5">
+    <div class="add2">
+    </div>
+    <div class="small5"></div>
+    <div class="rlsmall3"></div>
+    <div class="rlsmall4"></div>
+    <div class="small6"></div>
+</section>
+</body>
+</html>
